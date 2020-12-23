@@ -3,9 +3,19 @@
          left: 30%;
          top: 20%;    
      }
-#rules {
-    word-wrap: break-word;
+.card-body {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 500px;
+    height: 350px;
+    border: 5px solid black;
+    box-shadow: black;
+    
+
 }
+
 
         #wrapper {
             background-color: white;
@@ -17,6 +27,7 @@
             border: 5px solid black;
             box-shadow: black;
         }
+
         #startTime {
             cursor: pointer;
             background-color: rgb(158, 157, 157);
@@ -35,7 +46,7 @@
             padding: 15px 32px;
             font-size: 20px;
             color: white;
-            
+        
         }
 
         #startTime:active {
@@ -69,7 +80,7 @@
             width: auto;
             text-align: center;
             text-decoration: none;
-        }
+        };
 
 
 
@@ -116,7 +127,6 @@
             box-shadow: 0 5px #666;
             transform: translateY(4px);
         }
-
         label {
             margin-right: 10px;
         }

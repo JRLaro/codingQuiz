@@ -8,14 +8,14 @@ var questionIndex = 0;
 
 // declare variables
 
-$("currentTime").addClass("#currentTime");
-// var currentTime = document.querySelector("#currentTime");
+// $("currentTime").addClass("#currentTime");
+var currentTime = document.querySelector("#currentTime");
 
-$("timer").addClass("#startTime");
-// var timer = document.querySelector("#startTime");
+// $("timer").addClass("#startTime");
+var timer = document.querySelector("#startTime");
 
-$("questionsDiv").addClass("#questionsDiv");
-// var questionsDiv = document.querySelector("#questionsDiv");
+// $("questionsDiv").addClass("#questionsDiv");
+var questionsDiv = document.querySelector("#questionsDiv");
 
 // var wrapper = $("#wrapper");
 var wrapper = document.querySelector("#wrapper");
@@ -91,6 +91,8 @@ function compare(event) {
             // Will deduct -5 seconds off secondsLeft for wrong answers
             secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "FALSE! The correct answer is:  " + questions[questionIndex].answer;
+
+            
         }
 
     }
